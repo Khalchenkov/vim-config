@@ -32,12 +32,23 @@ nmap <leader>qa :bufdo bd<cr>
 nmap <leader>d :bnext<cr>
 nmap <leader>a :bprevious<cr>
 
-inoremap qw <esc>
-inoremap <C-s> <esc>
+imap qw <esc>
+vmap qw <esc>
+vmap c <y>
+vmap x <d>
+imap <C-s> <esc>
 nmap <leader>f :Files<cr>
 nmap <leader>l :Lines<cr>
 nmap <leader>ft :FloatermToggle<cr> 
 nmap <leader>t :terminal<cr>
+
+" Cargo, Rust hotkey
+nmap <leader>cc :Ccheck<cr>
+nmap <leader>ct :Ctest<cr>
+nmap <leader>cb :Cbuild<cr>
+nmap <leader>cr :Crun<cr>
+nmap <leader>rt :RustTest!<cr>
+nmap <leader>rr :RustRun<cr>
 
 " Floaterm settings 
 let g:floaterm_width=0.93
@@ -140,6 +151,7 @@ let g:prettier#autoformat = 1
 let g:prettier#autoformat_enabled = 0
 
 " Rust
+let g:rustfmt_autosave = 1
 let g:syntastic_rust_checkers=['cargo']
 let g:rust_cargo_avoid_whole_workspace=1
 let g:rust_cargo_check_all_targets=1
@@ -206,10 +218,6 @@ let g:ale_rust_ignore_error_codes=1
 let g:ale_rust_ignore_secondary_spans=1
 let g:ale_rust_rustfmt_options=1
 let g:ale_rust_rustfmt_executable=1
-
-" Go to next or prev tab by H and L accordingly
-nnoremap H gT
-nnoremap L gt
 
 " White colors for LSP messages in code
 set termguicolors
@@ -315,8 +323,6 @@ autocmd BufWritePre *.py,*.rs normal m`:%s/\s\+$//e ``
 " В .py файлах включаем умные отступы после ключевых слов
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
-autocmd BufRead *.rs set smartindent cinwords={
-
 syntax on "Включить подсветку синтаксиса
 
 let g:coc_disable_startup_warning = 1
@@ -349,9 +355,6 @@ set fileencodings=utf8,cp1251
 
 set clipboard=unnamed
 set ruler
-
-nnoremap <C-N> :bnext<CR>
-nnoremap <C-P> :bprev<CR>
 
 " Run Python and C files by Ctrl+h or <F5>
 autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python3.11' shellescape(@%, 1)<CR>
@@ -399,6 +402,4 @@ autocmd FileType css setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 " ColorScheme
 colorscheme mizore
 colorscheme PaperColor
-
-
 
