@@ -34,8 +34,6 @@ nmap <leader>a :bprevious<cr>
 
 imap qw <esc>
 vmap qw <esc>
-vmap c <y>
-vmap x <d>
 imap <C-s> <esc>
 nmap <leader>f :Files<cr>
 nmap <leader>l :Lines<cr>
