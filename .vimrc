@@ -128,10 +128,6 @@ Plug 'honza/vim-snippets'             " snippets repo
 let g:snippets_dir = "~/.vim/vim-snippets/snippets"
 
 "---------------=== Languages support ===-------------
-" --- Python ---
-Plug 'klen/python-mode'               " Python mode (docs, refactor, lints, highlighting, run and ipdb and more)
-Plug 'mitsuhiko/vim-jinja'            " Jinja support for vim
-Plug 'mitsuhiko/vim-python-combined'  " Combined Python 2/3 for Vim
 Plug 'rust-lang/rust.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
@@ -364,39 +360,6 @@ autocmd FileType c imap <buffer> <F5> <esc>:w<CR>:exec '!gcc' shellescape(@%, 1)
 
 autocmd FileType sh map <buffer> <F5> :w<CR>:exec '!bash' shellescape(@%, 1)<CR>
 autocmd FileType sh imap <buffer> <F5> <esc>:w<CR>:exec '!bash' shellescape(@%, 1)<CR>
-
-"=====================================================
-" Python-mode settings
-"=====================================================
-" отключаем автокомплит по коду (у нас вместо него используется jedi-vim)
-let g:pymode_rope = 0
-let g:pymode_rope_completion = 0
-let g:pymode_rope_complete_on_dot = 0
-
-" проверка кода
-let g:pymode_lint = 0
-let g:pymode_lint_checker = "pyflakes,pep8"
-
-" поддержка virtualenv
-let g:pymode_virtualenv = 1
-
-" подстветка синтаксиса
-let g:pymode_syntax = 1
-let g:pymode_syntax_all = 1
-let g:pymode_syntax_indent_errors = g:pymode_syntax_all
-let g:pymode_syntax_space_errors = g:pymode_syntax_all
-
-" --- JavaScript ---
-let javascript_enable_domhtmlcss=1
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-autocmd BufNewFile,BufRead *.json setlocal ft=javascript
-
-" --- HTML ---
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-
-" --- CSS ---
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-autocmd FileType css setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 
 " ColorScheme
 colorscheme mizore
