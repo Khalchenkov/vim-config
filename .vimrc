@@ -109,7 +109,6 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-colorscheme-switcher'
 Plug 'tpope/vim-fugitive'
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plug 'git://git.wincent.com/command-t.git'
 Plug 'ryanoasis/vim-devicons'
 Plug '907th/vim-auto-save'
 Plug 'vim-airline/vim-airline-themes'
