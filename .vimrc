@@ -11,8 +11,7 @@ set visualbell t_vb=
 set novisualbell
 set updatetime=300
 set nowritebackup
-let g:snipMate = {'snippet_version' : 1}
-
+set foldmethod=syntax
 
 " cursor
 let &t_SI = "\e[0 q"
