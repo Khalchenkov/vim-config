@@ -89,19 +89,11 @@ Plug 'scrooloose/nerdtree'            " Project and file navigation
 Plug 'majutsushi/tagbar'              " Class/module browser
 
 "------------------=== Other ===----------------------
-Plug 'bling/vim-airline'              " Lean & mean status/tabline for vim
-Plug 'fisadev/FixedTaskList.vim'      " Pending tasks list
-Plug 'rosenfeld/conque-term'          " Consoles as buffers
+Plug 'vim-airline/vim-airline'              " Lean & mean status/tabline for vim
 Plug 'flazz/vim-colorschemes'
-Plug 'tpope/vim-surround'
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-colorscheme-switcher'
-Plug 'tpope/vim-fugitive'
-Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plug 'ryanoasis/vim-devicons'
 Plug '907th/vim-auto-save'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'yassinebridi/vim-purpura'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
