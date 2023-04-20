@@ -296,7 +296,6 @@ let g:coc_global_extensions=[
 "    \'coc-snippets',
 
 " Настройки табов для Python, согласно рекоммендациям
-set tabstop=4
 set shiftwidth=4
 set smarttab
 set expandtab "Ставим табы пробелами
