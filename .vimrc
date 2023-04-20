@@ -65,7 +65,6 @@ set cursorline
 set iminsert=0
 
 set nocompatible              " be iMproved, required
-filetype off                  " required
 
 " настройки Vim-Airline
 set laststatus=2
