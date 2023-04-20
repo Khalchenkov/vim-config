@@ -355,7 +355,6 @@ let g:coc_disable_startup_warning = 1
 set nu "Включаем нумерацию строк
 set mousehide "Спрятать курсор мыши когда набираем текст
 set termencoding=utf-8 "Кодировка терминала
-set novisualbell " Не мигать
 " Удобное поведение backspace
 set backspace=indent,eol,start whichwrap+=<,>,[,]
 " Вырубаем черточки на табах
