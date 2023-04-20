@@ -356,7 +356,6 @@ set nu "Включаем нумерацию строк
 set mousehide "Спрятать курсор мыши когда набираем текст
 set termencoding=utf-8 "Кодировка терминала
 set novisualbell " Не мигать
-set t_vb= "Не пищать! (Опции 'не портить текст', к сожалению, нету)
 " Удобное поведение backspace
 set backspace=indent,eol,start whichwrap+=<,>,[,]
 " Вырубаем черточки на табах
