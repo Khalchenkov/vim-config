@@ -286,6 +286,12 @@ let g:coc_global_extensions=[
 "    \
 "    \'coc-jedi',
 "    \'coc-pyright',
+"   Snippet
+"    \
+"    \'coc-snippets'
+"   Golang
+"    \
+"    \'coc-go'
 
 " Настройки табов для Python, согласно рекоммендациям
 set tabstop=4
