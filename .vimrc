@@ -254,6 +254,8 @@ let g:coc_global_extensions=[
     \'coc-clang-format-style-options',
     \'coc-jedi',
     \'coc-pyright',
+    \'coc-go',
+    \'coc-snippets',
     \]
 
 "   JS, TS, Json
@@ -289,7 +291,7 @@ let g:coc_global_extensions=[
 "   Golang
 "    \
 "    \'coc-go',
-"   Snippet
+"   Snippets
 "    \
 "    \'coc-snippets',
 
