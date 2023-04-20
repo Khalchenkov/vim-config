@@ -20,7 +20,6 @@ let &t_EI = "\e[2 q"
 set nowrap
 set scrolloff=8
 set hidden
-set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
 nmap qq :q<cr>
