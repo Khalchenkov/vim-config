@@ -325,11 +325,6 @@ set showtabline=1
 set wrap
 set linebreak
 
-" LSP
-set foldmethod=expr
-  \ foldexpr=lsp#ui#vim#folding#foldexpr()
-  \ foldtext=lsp#ui#vim#folding#foldtext()
-
 " Вырубаем .swp и ~ (резервные) файлы
 set encoding=utf-8 " Кодировка файлов по умолчанию
 set fileencodings=utf8,cp1251
