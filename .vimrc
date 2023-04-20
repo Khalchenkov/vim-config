@@ -57,7 +57,6 @@ set nobackup
 set nowb
 set noswapfile
 let g:snippets_dir = "~/.vim/vim-snippets/snippets"
-set backspace=indent,eol,start
 set mousemodel=popup
 tab sball
 set switchbuf=useopen
