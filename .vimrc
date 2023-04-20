@@ -353,7 +353,7 @@ set nu "Включаем нумерацию строк
 set mousehide "Спрятать курсор мыши когда набираем текст
 set termencoding=utf-8 "Кодировка терминала
 " Удобное поведение backspace
-set backspace=indent,eol,start whichwrap+=<,>,[,]
+set backspace=indent,eol,start
 " Вырубаем черточки на табах
 set showtabline=1
 
