@@ -302,9 +302,6 @@ nnoremap <A-up> :m .-2<CR>==
 vnoremap <A-down> :m '>+1<CR>gv=gv
 vnoremap <A-up> :m '<-2<CR>gv=gv
 
-let rust_highlight_all = 1
-" Подсвечиваем все что можно подсвечивать
-let python_highlight_all = 1
 " Включаем 256 цветов в терминале, мы ведь работаем из иксов?
 " Нужно во многих терминалах, например в gnome-terminal
 set t_Co=256
