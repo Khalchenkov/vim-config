@@ -367,7 +367,6 @@ set foldmethod=expr
   \ foldtext=lsp#ui#vim#folding#foldtext()
 
 " Вырубаем .swp и ~ (резервные) файлы
-set nobackup
 set noswapfile
 set encoding=utf-8 " Кодировка файлов по умолчанию
 set fileencodings=utf8,cp1251
