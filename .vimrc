@@ -4,7 +4,6 @@ set relativenumber
 set tabstop=4
 set shiftwidth=4
 syntax enable
-set updatetime=250
 set mouse=a
 let mapleader = " "
 set t_vb=
