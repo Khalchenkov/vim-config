@@ -347,8 +347,6 @@ set t_Co=256
 
 " Перед сохранением вырезаем пробелы на концах (только в .py файлах)
 autocmd BufWritePre *.py,*.rs normal m`:%s/\s\+$//e ``
-" В .py файлах включаем умные отступы после ключевых слов
-autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
 syntax on "Включить подсветку синтаксиса
 
@@ -356,7 +354,6 @@ let g:coc_disable_startup_warning = 1
 
 set nu "Включаем нумерацию строк
 set mousehide "Спрятать курсор мыши когда набираем текст
-set mouse=a "Включить поддержку мыши
 set termencoding=utf-8 "Кодировка терминала
 set novisualbell " Не мигать
 set t_vb= "Не пищать! (Опции 'не портить текст', к сожалению, нету)
