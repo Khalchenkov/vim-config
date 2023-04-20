@@ -102,11 +102,7 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make'}
 Plug 'voldikss/vim-floaterm'
 
 "--------------=== Snippets support ===---------------
-Plug 'garbas/vim-snipmate'            " Snippets manager
-Plug 'MarcWeber/vim-addon-mw-utils'   " dependencies #1
-Plug 'tomtom/tlib_vim'                " dependencies #2
 Plug 'honza/vim-snippets'             " snippets repo
-let g:snippets_dir = "~/.vim/vim-snippets/snippets"
 
 "---------------=== Languages support ===-------------
 Plug 'rust-lang/rust.vim'
