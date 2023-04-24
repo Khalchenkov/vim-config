@@ -212,7 +212,6 @@ let g:coc_global_extensions=[
     \'coc-markdown-preview-enhanced',
     \'coc-clangd',
     \'coc-clang-format-style-options',
-    \'coc-jedi',
     \'coc-pyright',
     \'coc-go',
     \'coc-snippets',
@@ -246,7 +245,6 @@ let g:coc_global_extensions=[
 "    \'coc-clang-format-style-options',
 "   Python
 "    \
-"    \'coc-jedi',
 "    \'coc-pyright',
 "   Golang
 "    \
