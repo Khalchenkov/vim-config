@@ -106,6 +106,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()                       " required
 filetype on
