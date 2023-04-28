@@ -26,8 +26,8 @@ nmap qq :q<cr>
 nmap <leader>w :w!<cr>
 nmap <leader>qq :bd<cr>
 nmap <leader>qa :bufdo bd<cr>
-nmap <leader>d :bnext<cr>
-nmap <leader>a :bprevious<cr>
+nmap <leader><right> :bnext<cr>
+nmap <leader><left> :bprevious<cr>
 
 imap qw <esc>
 vmap qw <esc>
