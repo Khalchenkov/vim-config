@@ -319,7 +319,6 @@ set backspace=indent,eol,start
 set showtabline=1
 
 " Переносим на другую строчку, разрываем строки
-set wrap
 set linebreak
 
 " Вырубаем .swp и ~ (резервные) файлы
