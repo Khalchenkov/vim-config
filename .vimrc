@@ -124,7 +124,6 @@ let g:prettier#autoformat = 1
 let g:prettier#autoformat_enabled = 0
 
 " Rust
-let g:rustfmt_autosave = 1
 let g:syntastic_rust_checkers=['cargo']
 let g:rust_cargo_avoid_whole_workspace=1
 let g:rust_cargo_check_all_targets=1
