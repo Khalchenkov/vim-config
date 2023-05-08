@@ -85,6 +85,7 @@ call plug#begin('~/.vim/plugged')
 
 "---------=== Code/project navigation ===-------------
 Plug 'scrooloose/nerdtree'            " Project and file navigation
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'majutsushi/tagbar'              " Class/module browser
 
 "------------------=== Other ===----------------------
