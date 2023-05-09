@@ -191,12 +191,6 @@ let g:ale_rust_ignore_secondary_spans=1
 let g:ale_rust_rustfmt_options=1
 let g:ale_rust_rustfmt_executable=1
 
-" White colors for LSP messages in code
-set termguicolors
-hi DiagnosticError guifg=White
-hi DiagnosticWarn  guifg=White
-hi DiagnosticInfo  guifg=White
-
 " coc plug
 let g:coc_global_extensions=[
     \'coc-json',
@@ -331,3 +325,6 @@ autocmd FileType sh imap <buffer> <F5> <esc>:w<CR>:exec '!bash' shellescape(@%, 
 colorscheme mizore
 colorscheme PaperColor
 
+" Colors for messages in code
+set termguicolors
+hi CocErrorHighlight guibg=#6f1313 guifg=white
