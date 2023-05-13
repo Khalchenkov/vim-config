@@ -57,7 +57,7 @@ set noswapfile
 set mousemodel=popup
 tab sball
 set switchbuf=useopen
-map <F3> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
 set ttyfast
 set colorcolumn=79
 set cursorline
