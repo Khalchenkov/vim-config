@@ -30,6 +30,21 @@ nmap <leader><right> :bnext<cr>
 nmap <leader><left> :bprevious<cr>
 nmap <leader>b :Buffers<cr>
 
+" window navigation
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-h> <C-w>h
+nmap <C-l> <C-w>l
+
+" navigation in insert
+imap <A-h> <left>
+imap <A-j> <down>
+imap <A-k> <up>
+imap <A-l> <right>
+
+" delete with Alt + d
+imap <A-d> <del>
+
 imap qw <esc>
 vmap qw <esc>
 imap <C-s> <esc>
