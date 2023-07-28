@@ -7,6 +7,8 @@ Vim last version
 
 [Nerd fonts site](https://www.nerdfonts.com/)
 
+Recomended font version < 3version
+
 Move archive to `~/.local/share/fonts/`, unzip archive, remove zip file and run
 
 ```bash
