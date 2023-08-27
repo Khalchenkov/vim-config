@@ -291,6 +291,10 @@ nnoremap <A-down> :m .+1<CR>==
 nnoremap <A-up> :m .-2<CR>==
 vnoremap <A-down> :m '>+1<CR>gv=gv
 vnoremap <A-up> :m '<-2<CR>gv=gv
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
 
 " Включаем 256 цветов в терминале, мы ведь работаем из иксов?
 " Нужно во многих терминалах, например в gnome-terminal
