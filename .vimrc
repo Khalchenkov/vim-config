@@ -50,15 +50,9 @@ vmap qw <esc>
 imap <C-s> <esc>
 nmap <leader>f :Files<cr>
 nmap <leader>l :Lines<cr>
-nmap <leader>ft :FloatermToggle<cr> 
-nmap <leader>t :terminal<cr>
 
 " Rust hotkey
 nmap <leader>rf :RustFmt<cr>
-
-" Floaterm settings 
-let g:floaterm_width=0.93
-let g:floaterm_height=0.92
 
 set incsearch
 set nobackup
@@ -109,7 +103,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make'}
-Plug 'voldikss/vim-floaterm'
 
 "--------------=== Snippets support ===---------------
 Plug 'honza/vim-snippets'             " snippets repo
