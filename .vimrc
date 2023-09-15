@@ -323,18 +323,8 @@ set fileencodings=utf8,cp1251
 set clipboard=unnamed
 set ruler
 
-" Run Python and C files by Ctrl+h or <F5>
-autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python3.11' shellescape(@%, 1)<CR>
-autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3.11' shellescape(@%, 1)<CR>
-
-autocmd FileType c map <buffer> <F5> :w<CR>:exec '!gcc' shellescape(@%, 1) '-o out; ./out'<CR>
-autocmd FileType c imap <buffer> <F5> <esc>:w<CR>:exec '!gcc' shellescape(@%, 1) '-o out; ./out'<CR>
-
-autocmd FileType sh map <buffer> <F5> :w<CR>:exec '!bash' shellescape(@%, 1)<CR>
-autocmd FileType sh imap <buffer> <F5> <esc>:w<CR>:exec '!bash' shellescape(@%, 1)<CR>
-
 " ColorScheme
-colorscheme mizore
+set bg=dark
 colorscheme PaperColor
 
 " Colors for messages in code
