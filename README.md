@@ -34,6 +34,8 @@ sudo n stable
 
 ## Coc-settings
 
+Run `:CocConfig`
+
 ```json
 {
   "inlayHint.enable": false,
