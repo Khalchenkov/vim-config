@@ -1,4 +1,4 @@
-# vim-config
+<h1 align="center">Vim setup</h1>
 
 ## Vim
 Vim last version
