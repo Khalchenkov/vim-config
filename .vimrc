@@ -22,7 +22,6 @@ set switchbuf=useopen
 set ttyfast
 set colorcolumn=80
 set cursorline
-set iminsert=0
 set nocompatible
 set t_Co=256
 set mousehide
