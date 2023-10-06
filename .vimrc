@@ -18,7 +18,6 @@ set incsearch
 set nobackup
 set noswapfile
 set mousemodel=popup
-tab sball
 set switchbuf=useopen
 set ttyfast
 set colorcolumn=80
