@@ -22,7 +22,6 @@ set noswapfile
 set mousemodel=popup
 tab sball
 set switchbuf=useopen
-map <F2> :NERDTreeToggle<CR>
 set ttyfast
 set colorcolumn=80
 set cursorline
@@ -31,12 +30,9 @@ set nocompatible
 set t_Co=256
 set mousehide
 set linebreak
-
-" Настройки табов для Python, согласно рекоммендациям
 set smarttab
 set expandtab
 set softtabstop=4
-" Автоотступ
 set autoindent
 
 " cursor
@@ -49,7 +45,6 @@ nmap <leader>qq :bd<cr>
 nmap <leader>qa :bufdo bd<cr>
 nmap <leader><right> :bnext<cr>
 nmap <leader><left> :bprevious<cr>
-nmap <leader>b :Buffers<cr>
 
 " Moving string
 nnoremap <A-down> :m .+1<CR>==
@@ -70,11 +65,19 @@ nmap <C-l> <C-w>l
 " delete with Alt + d
 imap <A-d> <del>
 
+" Escape
 imap qw <esc>
 vmap qw <esc>
 imap <C-s> <esc>
-nmap <leader>f :Files<cr>
-nmap <leader>l :Lines<cr>
+
+" Find
+nmap <leader>ff :Files<cr>
+nmap <leader>fl :Lines<cr>
+nmap <leader>/ :BLines<cr>
+nmap <leader>fb :Buffers<cr>
+
+" NERDTree
+map <F2> :NERDTreeToggle<CR>
 
 " Rust hotkey
 nmap <leader>rf :RustFmt<cr>
