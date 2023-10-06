@@ -23,7 +23,6 @@ set ttyfast
 set colorcolumn=80
 set cursorline
 set nocompatible
-set t_Co=256
 set mousehide
 set linebreak
 set smarttab
