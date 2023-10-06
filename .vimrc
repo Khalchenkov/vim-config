@@ -16,7 +16,6 @@ set hidden
 set whichwrap+=<,>,h,l
 set incsearch
 set nobackup
-set nowb
 set noswapfile
 set mousemodel=popup
 tab sball
