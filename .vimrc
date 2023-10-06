@@ -6,7 +6,6 @@ set tabstop=4
 set shiftwidth=4
 syntax enable
 set mouse=a
-let mapleader = " "
 set updatetime=300
 set nowritebackup
 set foldmethod=syntax
@@ -38,6 +37,9 @@ set autoindent
 " cursor
 let &t_SI = "\e[0 q"
 let &t_EI = "\e[2 q"
+
+" Leader
+let mapleader = " "
 
 nmap qq :q<cr>
 nmap <leader>w :w!<cr>
