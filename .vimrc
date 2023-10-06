@@ -24,7 +24,7 @@ tab sball
 set switchbuf=useopen
 map <F2> :NERDTreeToggle<CR>
 set ttyfast
-set colorcolumn=79
+set colorcolumn=80
 set cursorline
 set iminsert=0
 set nocompatible
