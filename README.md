@@ -39,7 +39,6 @@ Run `:CocConfig`
 ```json
 {
   "inlayHint.enable": false,
-  "suggest.enableFloat": false,
 }
 ```
 
@@ -48,7 +47,6 @@ Or if you want use kind
 ```json
 {
   "inlayHint.enable": false,
-  "suggest.enableFloat": false,
   "suggest.formatItems": ["kind", "abbr", "menu", "shortcut"],
   "suggest.completionItemKindLabels": {
     "method": " 󰆧 ",
