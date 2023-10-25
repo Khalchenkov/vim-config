@@ -78,8 +78,17 @@ nmap <leader>fb :Buffers<cr>
 " NERDTree
 map <F2> :NERDTreeToggle<CR>
 
-" Rust hotkey
+" Rust formatter
 nmap <leader>rf :RustFmt<cr>
+
+" Golang formatters
+nmap <leader>gf :!gofmt -w % && golines -w % && goimports -w %<cr>
+
+" Python formatter
+nmap <leader>pf :!black %<cr>
+
+" Web formatter
+nmap <leader>wf :!prettier % -w<cr>
 
 " настройки Vim-Airline
 set laststatus=2
