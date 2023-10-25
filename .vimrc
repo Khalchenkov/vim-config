@@ -70,6 +70,7 @@ imap <C-s> <esc>
 
 " Find
 nmap <leader>ff :Files<cr>
+nmap <leader>fg :Rg<cr>
 nmap <leader>fl :Lines<cr>
 nmap <leader>/ :BLines<cr>
 nmap <leader>fb :Buffers<cr>
