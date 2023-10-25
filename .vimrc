@@ -112,6 +112,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Tmux
+Plug 'christoomey/vim-tmux-navigator'
+
 "--------------=== Snippets support ===---------------
 Plug 'honza/vim-snippets'
 
