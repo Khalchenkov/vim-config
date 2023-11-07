@@ -43,6 +43,8 @@ nmap <leader>qq :bd<cr>
 nmap <leader>qa :bufdo bd<cr>
 nmap <leader><right> :bnext<cr>
 nmap <leader><left> :bprevious<cr>
+nmap <leader>k :bnext<cr>
+nmap <leader>j :bprevious<cr>
 
 " Moving string
 nnoremap <A-down> :m .+1<CR>==
