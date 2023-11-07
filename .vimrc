@@ -1,34 +1,32 @@
-" Basic configs
-set number
-set ruler
-set relativenumber
-set tabstop=4
-set shiftwidth=4
-syntax enable
-set mouse=a
-set updatetime=300
-set nowritebackup
-set foldmethod=syntax
-set pumheight=25
-set nowrap
-set scrolloff=8
-set hidden
-set whichwrap+=<,>,h,l
-set incsearch
-set nobackup
-set noswapfile
-set mousemodel=popup
-set switchbuf=useopen
-set ttyfast
-set colorcolumn=80
-set cursorline
+" Base options
 set nocompatible
-set mousehide
-set linebreak
-set smarttab
+set mouse=a
+set number
+set relativenumber
+set scrolloff=8
+set colorcolumn=80
+set pumheight=25
+set foldmethod=indent
 set expandtab
-set softtabstop=4
-set autoindent
+set shiftwidth=2
+set smartindent
+set tabstop=2
+set softtabstop=2
+filetype plugin on
+filetype indent on
+set ignorecase
+set smartcase
+set nowrap
+set hidden
+set incsearch
+set ttyfast
+set cursorline
+set hlsearch
+set splitbelow
+set splitright
+set updatetime=250
+set timeoutlen=500
+syntax on
 
 " cursor
 let &t_SI = "\e[0 q"
