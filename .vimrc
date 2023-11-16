@@ -44,6 +44,9 @@ nmap <leader><left> :bprevious<cr>
 nmap <leader>k :bnext<cr>
 nmap <leader>j :bprevious<cr>
 
+" No hlsearch
+nmap <leader>, :nohlsearch<cr>
+
 " Moving string
 nnoremap <A-down> :m .+1<CR>==
 nnoremap <A-up> :m .-2<CR>==
