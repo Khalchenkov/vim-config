@@ -63,14 +63,6 @@ nmap <C-k> <C-w>k
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 
-" delete with Alt + d
-imap <A-d> <del>
-
-" Escape
-imap qw <esc>
-vmap qw <esc>
-imap <C-s> <esc>
-
 " Find
 nmap <leader>ff :Files<cr>
 nmap <leader>fg :Rg<cr>
