@@ -140,36 +140,6 @@ let g:coc_global_extensions=[
     \'coc-snippets',
     \]
 
-"   JS, TS, Json
-"    \
-"    \'coc-json',
-"    \'coc-tsserver',
-"   Rust
-"    \
-"    \'coc-rust-analyzer',
-"   HTML, CSS
-"    \
-"    \'coc-css',
-"    \'coc-html',
-"   XML, YAML, TOML, Markdown
-"    \
-"    \'coc-xml',
-"    \'coc-yaml',
-"    \'coc-toml',
-"    \'coc-markdownlint',
-"   C/C++
-"    \
-"    \'coc-clangd',
-"   Python
-"    \
-"    \'coc-pyright',
-"   Golang
-"    \
-"    \'coc-go',
-"   Snippets
-"    \
-"    \'coc-snippets',
-
 " Coc-config
 inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
 inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
